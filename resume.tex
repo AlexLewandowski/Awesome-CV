@@ -1,0 +1,86 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+\usepackage[super]{nth}
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-darknight
+\definecolor{custom}{HTML}{2862A6}
+\colorlet{awesome}{custom}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+\name{Alex}{Lewandowski}
+%\address{Computer Vision Center, Edificio O, Campus UAB 08193 Barcelona SPAIN}
+
+\email{lewandowski@ualberta.ca}
+\homepage{lewandowskialex.com}
+\github{AlexLewandowski}
+% \stackoverflow{SOid}{SOname}
+% \twitter{@twit}
+% \skype{skypeid}
+% \extrainfo{extra informations}
+
+
+%-----------------------------------------------------------------------------
+\begin{document}
+% Print the header with above personal informations
+\hbtwocolumntrue
+\cvheaderfooter{C}{lewandowskialex.com}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{section/interests.tex}
+\input{section/publications.tex}
+\input{section/research_exp.tex}
+\input{section/education.tex}
+\input{section/work_exp.tex}
+\input{section/honors.tex}
+
+%\import{\sectiondir}{skills.tex}
+\end{document}
+
+%%% Local Variables: 
+%%% coding: utf-8
+%%% mode: latex
+%%% TeX-engine: xetex 
