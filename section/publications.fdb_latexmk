@@ -1,11 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1534986990 "publications.tex" "publications.pdf" "publications" 1534986990
-  "/etc/texmf/web2c/texmf.cnf" 1531935104 475 c0e671620eb5563b2130f56340a5fde8 ""
+["pdflatex"] 1538132715 "publications.tex" "publications.pdf" "publications" 1538132715
+  "/etc/texmf/web2c/texmf.cnf" 1536811667 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
-  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1531936891 3560238 431d4e47e7a7ffa72c1edc8cf77ca5e3 ""
-  "publications.aux" 1534986990 8 a94a2480d3289e625eea47cd1b285758 ""
-  "publications.tex" 1534986990 650 344fb1f4f2b6f59096a957cf86c2ebac ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1537731494 3870171 18ec52985d44ff9e076402ea6f7867c6 ""
+  "publications.aux" 0 -1 0 ""
+  "publications.tex" 1538132714 689 e0dd9a0e3856624f4d12cace45528b9a ""
   (generated)
-  "publications.log"
   "publications.pdf"
+  "publications.log"
