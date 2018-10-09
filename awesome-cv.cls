@@ -178,9 +178,9 @@
 \newfontfamily\footerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
-  ItalicFont=*-Italic,
+  ItalicFont=*-It,
   BoldFont=*-Regular
-]{Roboto}
+]{SourceSansPro}
 
 % Set font for body (default is Source Sans Pro)
 \newfontfamily\bodyfont[
@@ -560,7 +560,7 @@
  % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{0pt}
-  \begin{tabular*}{\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
+  \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
     \multicolumn{2}{L{0.95\cvcolwidth}}{\entrytitlestyle{#2}} \\
       \entrypositionstyle{#1} & \entrydatestyle{#3} \\
     \multicolumn{2}{L{0.95\cvcolwidth}}{\descriptionstyle{#4}}
@@ -598,7 +598,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-   \begin{tabular*}{\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
+   \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
 }{%
     \end{tabular*}
   \end{center}
@@ -619,7 +619,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}} r L{\columnwidth * \real{0.9}}}
+    \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} r L{0.95\cvcolwidth - 4.5cm}}
 }{%
     \end{tabular*}
   \end{center}
