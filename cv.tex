@@ -21,6 +21,9 @@
 \documentclass[11pt, a4paper]{awesome-cv}
 
 \usepackage[super]{nth}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
 
 % Configure page margins with geometry
 % \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -30,7 +33,7 @@
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-darknight
-\definecolor{custom}{HTML}{2862A6}
+\definecolor{custom}{HTML}{007C41}
 \colorlet{awesome}{awesome-emerald}
 
 % Colors for text
@@ -74,13 +77,13 @@
 %-------------------------------------------------------------------------------
 
 % Resume, 2col:
-\input{section/interests.tex}
 \input{section/publications.tex}
-\input{section/education.tex}
 \input{section/research_exp.tex}
+\input{section/interests.tex}
+\vspace{10mm}
+\input{section/education.tex}
 \input{section/work_exp.tex}
 \input{section/honors.tex}
-
 % CV, 1col:
  % \input{section/education.tex}
  % \input{section/interests.tex}

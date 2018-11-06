@@ -107,6 +107,7 @@
 \fancyhfoffset{0em}
 % Remove head rule
 \renewcommand{\headrulewidth}{0pt}
+\renewcommand{\labelitemi}{>>}
 % Clear all header & footer fields
 \fancyhf{}
 % Enable if you want to make header or footer using fancyhdr
@@ -134,7 +135,9 @@
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
 % Awesome colors
-\definecolor{awesome-emerald}{HTML}{00A388}
+\definecolor{awesome-emerald}{HTML}{007C41}
+\definecolor{awesome-dark}{HTML}{004e18}
+\definecolor{awesome-light}{HTML}{47ac6d}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
 \definecolor{awesome-red}{HTML}{DC3522}
 \definecolor{awesome-pink}{HTML}{EF4089}
@@ -238,13 +241,13 @@
 % Configure styles for each CV elements
 % For fundamental structures
 \newcommand*{\headerfirstnamestyle}[1]{{\fontsize{32pt}{1em}\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{text} #1}}
+\newcommand*{\headerlastnamestyle}[1]{{\fontsize{32pt}{1em}\headerfont\bfseries\color{awesome} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{10.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
-\newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1em}\headerfont\color{text} #1}}
+\newcommand*{\headersocialstyle}[1]{{\fontsize{8pt}{1em}\headerfont\bfseries\color{lighttext} #1}}
 \newcommand*{\headerquotestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
 \newcommand*{\footerstyle}[1]{{\fontsize{8pt}{1em}\footerfont\scshape\color{lighttext} #1}}
-\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\bodyfont\bfseries\color{awesome-emerald} #1}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{16pt}{1em}\headerfont\bfseries\color{darktext} #1}}
 \newcommand*{\subsectionstyle}[1]{{\fontsize{12pt}{1em}\bodyfont\scshape\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{9pt}{1em}\bodyfontlight\upshape\color{text}}
 
@@ -525,7 +528,7 @@
   \vspace{\acvSectionTopSkip}
   \sectionstyle{#1}
   \phantomsection
-  \color{gray}\vhrulefill{0.9pt}
+  %\color{gray}\vhrulefill{0.9pt}
 }
 
 % Define a subsection for CV
@@ -559,7 +562,7 @@
 \newcommand*{\cventry}[4]{%
  % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
-  \setlength{\extrarowheight}{0pt}
+  \setlength{\extrarowheight}{-2pt}
   \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
     \multicolumn{2}{L{0.95\cvcolwidth}}{\entrytitlestyle{#2}} \\
       \entrypositionstyle{#1} & \entrydatestyle{#3} \\

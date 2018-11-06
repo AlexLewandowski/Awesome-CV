@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1538674141 "awesome-cv.cls" "awesome-cv.pdf" "awesome-cv" 1538674141
+["pdflatex"] 1541465880 "awesome-cv.cls" "awesome-cv.pdf" "awesome-cv" 1541465880
   "/etc/texmf/web2c/texmf.cnf" 1536811667 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1480098701 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -33,8 +33,8 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1538436129 4218610 6c75951fa50000b0739b5dad4fccb30c ""
-  "awesome-cv.aux" 1538674141 8 a94a2480d3289e625eea47cd1b285758 ""
-  "awesome-cv.cls" 1538674140 24312 71082d1de5337166ed268cb0296d4a79 ""
+  "awesome-cv.aux" 1541465880 8 a94a2480d3289e625eea47cd1b285758 ""
+  "awesome-cv.cls" 1541465878 24446 5103cc272fd5e0813bec33720094177e ""
   (generated)
   "awesome-cv.log"
   "awesome-cv.pdf"
