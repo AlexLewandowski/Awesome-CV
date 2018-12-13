@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1541466114 "cv.tex" "cv.pdf" "cv" 1541466116
+["pdflatex"] 1541727192 "cv.tex" "cv.pdf" "cv" 1541727195
   "/etc/texmf/web2c/texmf.cnf" 1536811667 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1480098689 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -135,18 +135,18 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1535076666 32752 ce45b90d2fda49befaa367e6f5986072 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1538436150 3736863 074ce8ae8521df2e5ac66230aeb8699a ""
   "awesome-cv.cls" 1541465948 24445 c4a6cb91254d45e35bbbb582fc1b4fd9 ""
-  "cv.aux" 1541466116 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
-  "cv.out" 1541466116 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "cv.tex" 1541466113 2974 372d0642e94988f5b86301530ed9642b ""
+  "cv.aux" 1541727194 628 8e762e3fa6240f6f8fe2e9db6cd33e0e ""
+  "cv.out" 1541727194 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "cv.tex" 1541727189 2973 aede68903064c8a395b9c92e89711036 ""
   "fontawesome.sty" 1536814471 84047 355f16a7bd7ed1782c4e1f3a0b78b931 ""
   "section/education.tex" 1541462767 919 75ec919b27f21ec4e82c3fb131537b0a ""
   "section/honors.tex" 1536814471 595 318c996b817565a7d330822ea30ff4a3 ""
   "section/interests.tex" 1541463143 405 122d3bc476c549c474aeb498f2e17d22 ""
-  "section/publications.tex" 1541465125 717 7ed9119a82ac5d6f725b101bc65645b9 ""
+  "section/publications.tex" 1541727161 702 85c4ca2a16ebbc77e1537f01044e3671 ""
   "section/research_exp.tex" 1541466043 2054 9ca07d883454b2a552245c95e6e2dca2 ""
   "section/work_exp.tex" 1541463264 1349 4b733fa4e985a36273bd9eb48ffba4dc ""
   (generated)
-  "cv.pdf"
-  "cv.out"
   "cv.log"
+  "cv.out"
+  "cv.pdf"
   "cv.aux"
