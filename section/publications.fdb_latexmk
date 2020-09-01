@@ -1,11 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1538132715 "publications.tex" "publications.pdf" "publications" 1538132715
-  "/etc/texmf/web2c/texmf.cnf" 1536811667 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
-  "/usr/share/texmf/web2c/texmf.cnf" 1488610416 31340 0f53f8665296bf8fe6c697f9505e31d8 ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1537731494 3870171 18ec52985d44ff9e076402ea6f7867c6 ""
-  "publications.aux" 0 -1 0 ""
-  "publications.tex" 1538132714 689 e0dd9a0e3856624f4d12cace45528b9a ""
+["pdflatex"] 1598980346 "publications.tex" "publications.pdf" "publications" 1598980346
+  "/etc/texmf/web2c/texmf.cnf" 1573343595 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1520210507 32485 c64754543d8ac501bea6e75e209ea521 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1580800513 4127035 83f158f536bb9d72b02af306910ed110 ""
+  "publications.aux" 1598980346 8 a94a2480d3289e625eea47cd1b285758 ""
+  "publications.tex" 1598980345 1126 8a31bc09ff0cf603fb2f38d1e10f7555 ""
   (generated)
   "publications.pdf"
   "publications.log"
