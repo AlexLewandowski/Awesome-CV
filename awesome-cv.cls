@@ -135,7 +135,8 @@
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
 % Awesome colors
-\definecolor{awesome-emerald}{HTML}{007C41}
+% \definecolor{awesome-emerald}{HTML}{007C41}
+\definecolor{awesome-emerald}{HTML}{275D38}
 \definecolor{awesome-dark}{HTML}{004e18}
 \definecolor{awesome-light}{HTML}{47ac6d}
 \definecolor{awesome-skyblue}{HTML}{0395DE}
