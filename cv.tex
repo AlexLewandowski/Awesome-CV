@@ -49,6 +49,12 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
+\newcommand\freefootnote[1]{%
+\let\thefootnote\relax%
+\footnotetext{\hspace{-5mm}{#1}}%
+\let\thefootnote\svthefootnote}
+
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -81,19 +87,15 @@
 
 \begin{center}
   {\fontsize{10pt}{1em}\bodyfont\slshape\color{awesome}
-    I am working to
-    build
-    % understand
-    % the problems and algorithms of
-    an agent that effectively uses its experience to continually adapt its behaviour.}
+      I design algorithms so that agents continue to develop their behaviour as they explore the world.}
 \end{center}
 % Resume, 2col:
 \input{section/education.tex}
-\input{section/publications.tex}
 \input{section/work_exp.tex}
+\input{section/publications.tex}
 % \input{section/research_exp.tex}
 \input{section/honors.tex}
-\input{section/skills.tex}
+% \input{section/skills.tex}
 \input{section/service.tex}
 % \input{section/interests.tex}
 % CV, 1col:
@@ -102,6 +104,7 @@
  % \input{section/publications.tex}
  % \input{section/research_exp.tex}
  % \input{section/work_exp.tex}
+\freefootnote{$^{\star}$Equal contribution}
 \end{document}
 
 %%% Local Variables: 

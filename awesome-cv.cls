@@ -623,7 +623,7 @@
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
 \newcommand*{\cvhonor}[3]{%
   \multicolumn{2}{L{0.95\cvcolwidth}}{\honorpositionstyle{#1}} \\
-      \honortitlestyle{#2} & \honordatestyle{#3} \\
+      \honortitlestyle{#2} & \honordatestyle{#3} \\[0.5em]
 }
 
 % Define an environment for cvskill
@@ -633,7 +633,7 @@
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} r L{0.95\cvcolwidth - 4.5cm}}
+    \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} c L{0.95\cvcolwidth - 4.5cm}}
 }{%
     \end{tabular*}
   \end{center}
