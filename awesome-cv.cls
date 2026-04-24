@@ -168,7 +168,7 @@
   ItalicFont=*-Thin,
   BoldFont=*-Medium,
   BoldItalicFont=*-Medium,
-]{Raleway}
+]{FiraSans}
 
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
@@ -176,15 +176,15 @@
   ItalicFont=*-Thin,
   BoldFont=*-Medium,
   BoldItalicFont=*-Medium,
-]{Raleway}
+]{FiraSans}
 
 % Set font for footer (default is Source Sans Pro)
 \newfontfamily\footerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
-  ItalicFont=*-It,
+  ItalicFont=*-Italic,
   BoldFont=*-Regular
-]{SourceSansPro}
+]{FiraSans}
 
 % Set font for body (default is Source Sans Pro)
 \newfontfamily\bodyfont[
@@ -193,16 +193,15 @@
   ItalicFont=*-Regular,
   BoldFont=*-Bold,
   BoldItalicFont=*-Bold,
-]{Raleway}
-
+]{Firasans}
 
 \newfontfamily\bodyfontlight[
   Path=\@fontdir,
-  UprightFont=*-Lig,
-  ItalicFont=*-LigIta,
-  BoldFont=*-Bol,
-  BoldItalicFont=*-BolIta
-]{Lato}
+  UprightFont=*-Light,
+  ItalicFont=*-LightItalic,
+  BoldFont=*-Bold,
+  BoldItalicFont=*-BoldItalic
+]{FiraSans}
 
 
 \newif\ifhbtwocolumn
@@ -536,7 +535,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-3mm}
+  % \vspace{-3mm}
   \subsectionstyle{#1}
   \phantomsection
 }
@@ -572,7 +571,6 @@
 }
 
 \newcommand*{\pubentry}[3]{%
- % \vspace{-2.0mm}
   \setlength\tabcolsep{0pt}
   \setlength{\extrarowheight}{-2pt}
   \begin{tabular*}{0.95\cvcolwidth}{@{\extracolsep{\fill}} L{0.95\cvcolwidth - 4.5cm} R{4cm}}
@@ -649,7 +647,6 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  \vspace{-4.0mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
@@ -657,7 +654,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{-4.0mm}
+  % \vspace{-2.0mm}
 }
 
 
