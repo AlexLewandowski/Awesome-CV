@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1777061940.12946 "cv.tex" "cv.pdf" "cv" 1777061941.43798 0
+["pdflatex"] 1779567743.65575 "cv.tex" "cv.pdf" "cv" 1779567744.95542 0
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -146,15 +146,15 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1741450550 5639796 b6822fbf027c6598cec2e241e0925725 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "awesome-cv.cls" 1777061705.97429 24901 6ba6d8cc2c19e40ac5fcfa00fc887dcc ""
-  "cv.aux" 1777061941.1525 128 8ec89a09013e497d5b92563b73b0583f "pdflatex"
-  "cv.out" 1777061941.10202 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv.tex" 1777060746.81406 3374 c282abec0b675775beffe4a9f8b0bebd ""
+  "cv.aux" 1779567744.65935 128 8ec89a09013e497d5b92563b73b0583f "pdflatex"
+  "cv.out" 1779567744.60108 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv.tex" 1778033874.38518 3424 c744167d1a683cfa6b36e9658933d5d4 ""
   "fontawesome.sty" 1777060448.13024 84047 355f16a7bd7ed1782c4e1f3a0b78b931 ""
-  "section/education.tex" 1777061775.55117 1242 2240cbeaaed890cf79828bcd91b2e8d7 ""
+  "section/education.tex" 1778033785.36578 1246 789410bb9bb4c512f41d73b6a1e8638c ""
   "section/honors.tex" 1777060448.14658 1256 304af8f5b9a99141fcce5fe70192bdf6 ""
-  "section/publications.tex" 1777061905.32862 5241 11f7dfda59151d860f915a8c48abd711 ""
-  "section/service.tex" 1777060448.14697 944 da68984578fb0151ec47ae564754eea7 ""
-  "section/work_exp.tex" 1777061938.89913 2711 caff55165123a117c0be2adb48da6831 ""
+  "section/publications.tex" 1778033614.59193 5775 4ae9208bcef38f202f14b61e4ef58f70 ""
+  "section/service.tex" 1779567743.25954 1006 f358eef739def90cd3052507464fa424 ""
+  "section/work_exp.tex" 1777953469.05818 2802 f34d2463371cac444a6c51e7ba09805d ""
   (generated)
   "cv.aux"
   "cv.log"
